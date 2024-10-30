@@ -2,8 +2,7 @@
 2024, Chungbuk National University's Department of Information and Communication Engineering </br>
 유승미, 최강 Capstone Project
 </br></br></br>
-# 시각장애인을 위한 음료 인식 서비스
-Beverage Recognition Service for the Visually Impaired
+# 시각장애인을 위한 음료 인식 서비스 <br/> Beverage Recognition Service for the Visually Impaired
 <center><img src="https://github.com/user-attachments/assets/c224790c-3111-4085-b089-00b817be7239" width="200" height="200"></center>
 
 # 개발 동기
