@@ -1,5 +1,6 @@
 # Capstone-Project
-2024, Chungbuk National University's Department of Information and Communication Engineering 유승미, 최강 Capstone Project
+2024, Chungbuk National University's Department of Information and Communication Engineering </br>
+유승미, 최강 Capstone Project
 </br></br></br>
 # 시각장애인을 위한 음료 인식 서비스
 Beverage Recognition Service for the Visually Impaired
