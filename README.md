@@ -1,9 +1,9 @@
+# Capstone-Project
+2024, Chungbuk National University's Department of Information and Communication Engineering 유승미, 최강 Capstone Project
+</br></br></br>
 # 시각장애인을 위한 음료 인식 서비스
 Beverage Recognition Service for the Visually Impaired
 <center><img src="https://github.com/user-attachments/assets/c224790c-3111-4085-b089-00b817be7239" width="200" height="200"></center>
-
-## Capstone-Project
-2024, Chungbuk National University's Department of Information and Communication Engineering 유승미, 최강 Capstone Project
 
 # 개발 동기
  시각장애인은 시각적 정보 접근이 어려워 점자나 음성 안내가 필요하지만, 자판기 접근성 문제는 여전히 미흡하다. 대부분의 음료 자판기에는 점자가 없거나 부실하게 표기되어 있어 개선이 시급하다. </br>
@@ -20,6 +20,27 @@ Beverage Recognition Service for the Visually Impaired
 <img src="https://github.com/user-attachments/assets/7480eb00-75d7-4382-a718-bf4478eeb896" width="500" height="200">
 
 ## 라벨링
-<img src="https://github.com/user-attachments/assets/9aeb9b5f-73a4-48b7-bb64-7c874d701d7b" width="500" height="120">
-</br></br></br>
+<img src="https://github.com/user-attachments/assets/9aeb9b5f-73a4-48b7-bb64-7c874d701d7b" width="580" height="120">
+
+## YOLOv5
 <img src="https://github.com/user-attachments/assets/551648cb-2c42-44d8-bf14-d603ba40a3d4" width="700" height="400">
+
+## 모델 개선
+1. Train: Hyperparameter Handling
+2. Detect: Central Object Detection
+3. Detect: Object Text and Audio Generation
+4. Detect: Extracting supplementary information using OCR
+
+# 성능 평가
+<img src="https://github.com/user-attachments/assets/b65a65bd-96d6-4de0-be85-3bcc14262806" width="700" height="170">
+</br></br>
+<img src="https://github.com/user-attachments/assets/9ff42fca-a944-444e-9950-7b95f8fe2544" width="700" height="280">
+</br></br>
+<img src="https://github.com/user-attachments/assets/57116f2f-de48-4860-9329-58560eabc820" width="700" height="400">
+</br></br>
+<img src="https://github.com/user-attachments/assets/a9e28222-c512-40e6-b5f8-a3722f4f149c" width="700" height="250">
+</br></br>
+<img src="https://github.com/user-attachments/assets/c9f58a82-0e74-4948-b291-a42ac36266fa" width="650" height="200">
+
+# Test Version
+<img src="https://github.com/user-attachments/assets/2344c53e-caf1-4f16-baa1-89e3f0eb7e78" width="700" height="300">
