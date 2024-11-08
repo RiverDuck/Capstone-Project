@@ -305,7 +305,7 @@ def run(
                     price_region = im0[y2:y2 + 100, x1-50:x2+50]  # 바운딩 박스 하단 50픽셀 범위 추출
 
                     # 바운딩 박스 아래 영역을 표시 (가격부분 박스표시)
-                    annotator.box_label([x1-50, y2, x2+50, y2 + 100], "Price Area", color=(255, 0, 0))  # 빨간색 박스 표시
+                    annotator.box_label([x1-50, y2, x2+50, y2 + 100], "Price Area", color=(255, 0, 0))  
 
                     # EasyOCR로 가격 정보 추출
                     reader = easyocr.Reader(['ko', 'en'])  # 한국어와 영어 지원
