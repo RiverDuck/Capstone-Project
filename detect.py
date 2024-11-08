@@ -300,18 +300,18 @@ def run(
                     confidence = float(conf)
                     confidence_str = f"{confidence:.2f}"
 
-                     # 바운딩 박스 아래 부분 추출
+                     # 바운딩 박스 아래 부분 추출 (가격표기 부분 어림잡기)
                     x1, y1, x2, y2 = map(int, xyxy)
                     price_region = im0[y2:y2 + 100, x1-50:x2+50]  # 바운딩 박스 하단 50픽셀 범위 추출
 
-                    # 바운딩 박스 아래 영역을 표시
+                    # 바운딩 박스 아래 영역을 표시 (가격부분 박스표시)
                     annotator.box_label([x1-50, y2, x2+50, y2 + 100], "Price Area", color=(255, 0, 0))  # 빨간색 박스 표시
 
                     # EasyOCR로 가격 정보 추출
                     reader = easyocr.Reader(['ko', 'en'])  # 한국어와 영어 지원
                     ocr_result = reader.readtext(price_region)
 
-                    # OCR 결과 중 가장 긴 텍스트 찾기 (가격 정보)
+                    # OCR 결과 중 가장 긴 텍스트 찾기 (가격 정보) / 가격 정보 외 다른 정보 안 가져오려고 가장 긴 텍스트 찾기로 함
                     longest_text = max(ocr_result, key=lambda x: len(x[1]), default=["", ""])[1]
 
                     # 나머지 코드 유지
